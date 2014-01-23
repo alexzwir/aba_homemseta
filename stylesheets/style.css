@@ -1,0 +1,684 @@
+@font-face {
+    font-family: 'FuturaRegular';
+    src: url('../fonts/f0110098-webfont.eot');
+    src: url('../fonts/f0110098-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/f0110098-webfont.woff') format('woff'),
+         url('../fonts/f0110098-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FuturaBdCnBTBold';
+    src: url('../fonts/futura_bold_condensed_bt-webfont.eot');
+    src: url('../fonts/futura_bold_condensed_bt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura_bold_condensed_bt-webfont.woff') format('woff'),
+         url('../fonts/futura_bold_condensed_bt-webfont.ttf') format('truetype'),
+         url('../fonts/futura_bold_condensed_bt-webfont.svg#FuturaBdCnBTBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_bk_btbook';
+    src: url('../fonts/futuran-webfont.eot');
+    src: url('../fonts/futuran-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futuran-webfont.woff') format('woff'),
+         url('../fonts/futuran-webfont.ttf') format('truetype'),
+         url('../fonts/futuran-webfont.svg#futura_bk_btbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+#pai{
+	width: 810px;
+	margin:0 auto;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+#barra_amarela{
+	width:810px;
+	height:3px;
+	margin:0px;
+	padding:0px;
+	background: url("../images/barra_amarela.png") no-repeat;
+}
+#barra_cinza{
+	width:810px;
+	height:6px;
+	margin:0px;
+	padding:0px;
+	background: url("../images/barra_cinza.png") no-repeat;
+}
+
+header{
+	width: 810px;
+	height: auto;
+	text-align: center;
+	background: url("../images/bg.png") repeat;
+}
+
+#logo {
+	padding-top:10px;	
+}
+
+nav{
+	width: 100%;
+	height: 25px;
+	margin-top:10px;
+	cursor: pointer;
+}
+
+ul#menu li{
+	width: 20%;
+	float: left;
+	font-family: 'futura_bk_btbook';
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+section	{
+	width: 810px;
+	margin: 0 auto;
+	background-color: #f4f4f4;
+}
+
+
+#menu li:hover{
+	text-decoration: underline;
+	color: #ff562b;
+}	
+
+.active li{
+	text-decoration: underline;
+}	
+
+
+#menu li{
+	text-decoration: none;
+}	
+
+#menu-footer{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+ul#menu-footer li{
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+	font-size: 10px;
+}
+
+
+#apoie_ideia{
+	width: 810px;
+	height: 410px;
+	margin: 0 auto;
+}
+#homem_seta{
+	background: url("../images/bg.png");
+}
+
+.number{
+	width:58.5px; 
+	height:96.75px;
+	margin: 1px;
+	padding-top: 150px;
+
+}
+
+#ultimo_p {
+	padding-bottom: 10px;
+}
+
+#apoiam_causa{
+	padding-top: 241px;
+	padding-left: 176px;
+}
+
+ 
+footer{
+	width: 810px;
+	margin: 0 auto;
+}
+
+#logo_bko{
+	width: 810px;
+	height: 100px;
+	background-color: #f4f4f4;
+}
+
+#logo_bko img{
+	padding-top: 15px;
+	margin-left: 359px !important;
+}
+
+#footer{
+	width: 810px;
+	float: left;
+	text-align: center;
+	background: #ffd200;
+	padding-top: 10px;
+	font-family: 'futura_bk_btbook';
+}
+
+#footer a{
+	font-size: 12px;
+}	
+
+
+.content{
+	width: 810px;
+	margin: 0 auto;
+}
+
+.content img{
+	float: right;
+
+}
+.cadastro_success{
+	font-family: 'FuturaBdCnBTBold';
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+
+}
+
+#alinhamento_esquerda{
+	padding-left: 10px !important;
+}
+
+#foto_homem_seta{
+	margin-left: 10px;
+}
+
+.apoia .content img{
+}
+
+#saiba{
+	float: left;
+	padding: 10px;
+	background: #ffd200;
+	margin-right: 10px;
+	font-family: 'FuturaBdCnBTBold';
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+#apoie{
+	float: left;
+	padding: 10px;
+	background: #ff562b;
+	margin-right: 35px;
+	font-family: 'FuturaBdCnBTBold';
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+#text1{
+	float: left;
+	margin-top: 10px;
+}
+
+#text2{
+	float: left;
+	margin: 20px 0;
+}
+
+.pessoa{
+	width: 150px;
+	float: left;
+	margin-top: 20px;
+}
+
+#quem_apoia{
+	background: url("../images/bg.png");
+	width: 810px;
+}
+
+#quem-apoia img{
+	padding: 0 15px 0 0;
+}
+
+#facebook{
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin: 10px 0;
+}
+
+.textofone{
+	float: left;
+	width: 400px;
+	background: url("../images/celular.png") no-repeat 32px 10px;
+}
+
+h1{
+	font-family: 'FuturaBdCnBTBold';
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.textofone h1{
+	font-size: 47px;
+	line-height: 50px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	padding-left: 59px;
+	padding-top: 120px;
+	font-family: 'FuturaBdCnBTBold';
+	text-transform: uppercase;
+	
+}
+
+.textofone span{
+	text-transform: none !important;
+	font-size: 29px;
+	margin-left: 8px;
+}	
+
+#contador{
+	margin:0 auto;
+	width: 810px;
+	height: 391px;
+	background: url("../images/bg_celular.png") no-repeat;
+
+}
+
+.conteudo-home{
+	float: right;
+	width: 410px;
+	
+}
+
+.conteudo-home p{
+	font-family: 'futura_bk_btbook';
+	color: #000;
+	font-weight: bold;
+}	
+
+p {
+	font-family: 'futura_bk_btbook';
+	color: #000;
+}
+
+
+
+#text2 img{
+	float: right;
+}
+
+h1{
+	margin-left: 10px;
+
+}
+
+
+h2{
+	font-family: 'FuturaBdCnBTBold';
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+#abaixo {
+	line-height: 14px;
+	font-size: 12px;
+	display: inline-block;
+	width: 810px;
+	vertical-align: top;
+	margin-right: 70px;
+}
+#facebookBox {
+	display: inline-block;
+	width: 430px;
+	vertical-align: top;
+}
+
+#email {
+
+	width: 185px;
+}
+#cpf {
+	width:135px;
+
+}
+#nome {
+	width:335px
+}
+
+
+td {
+	height: 18px;
+	vertical-align: top;
+
+}
+
+#ajudenos{
+	margin-bottom: -15px;
+	margin-top: -15px;
+}
+
+
+#cadastrar{
+	float: left;
+	padding: 10px;
+	background: #ffd200;
+	margin-right: 10px;
+	font-family: 'FuturaBdCnBTBold';
+	text-transform: uppercase;
+	margin-left: 10px;
+	font-size: 18px;
+	border: none;
+}
+
+.imgbko{
+	margin-bottom: 30px;
+	float: left;
+}
+
+textarea {
+	width: 500px;
+	height: 100px;
+}	
+
+#redes{
+	float: left;
+	width: 960px;
+}
+
+.forma{
+	width: 440px;
+	padding-left: 10px;
+	padding-right: 30px;
+	float: left;
+	margin-bottom: 15px;
+	height: 150px;
+	margin-top: 30px;
+}
+
+
+.hashtag{
+	color: #00aeff !important;
+	font-family: 'FuturaBdCnBTBold';
+	font-size: 20px;
+	float: left;
+	margin-top: -45px;
+	margin-left: 112px;
+}
+
+.img-compartilhe-facebook{
+	float: left;
+	margin-left: 81px;
+	margin-top: -15px;
+}
+
+.img-compartilhe-twitter{
+	float: left;
+	margin-left: 115px;
+	margin-top: -20px;
+}
+
+.img-compartilhe-foursquare{
+	float: left;
+	margin-left: 111px;
+	margin-top: -15px;
+}
+
+#facebook-comp img{
+	padding-right: 40px;
+	padding-left: 30px;
+}
+
+#waze img{
+	padding-left: 10px;
+}
+
+#map_canvas {
+	position: absolute;
+	width: 100%;
+	height: 460px;
+	margin-left: 0px;
+	left: 0px;
+	margin-top: -10px;
+	z-index: 50;
+}
+#informar {
+	display: none;
+	line-height: 12px;
+}
+#btInformar {
+	background-color: #ff562b;
+	color: #000;
+	font-family: 'FuturaBdCnBTBold';
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-left: 293px;
+	margin-top: -12px;
+}
+#boxflutuante h2 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#boxflutuante {
+	position: absolute;
+	z-index: 100;
+	background-color: #f6faf1;
+	width: 370px;
+	padding: 10px;
+	margin-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 70px;	
+	opacity:0.9;
+	filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+#enviaseta{
+	float: left;
+	padding: 10px;
+	background: #ffd200;
+	margin-left: 10px;
+	font-family: 'FuturaBdCnBTBold';
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.data{
+	width: 275px;
+	height: 50px;
+	background: url("../images/data.png") no-repeat center 0 scroll transparent;
+	padding: 14px 0px 0 15px;
+	margin-left: -15px;
+	font-family: 'futura_bk_btbook';
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.titulo-post{
+	text-align: center;
+	font-size: 25px;
+}
+
+.header-page{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.img-post{
+	text-align: center;
+}
+
+.img-post img{
+	padding-bottom: 20px;
+	float: none;
+}
+
+.tags span{
+	font-family: 'FuturaBdCnBTBold';
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.tags{
+	font-family: 'futura_bk_btbook';
+}
+
+#resposta{
+	display: none;
+	float: left;
+	height: 200px;
+}
+
+#resposta h1{
+	color: #ff562b;
+	font-size: 27px;
+}
+
+ @media only screen and (max-width: 767px) {
+ 	body {
+ 		width: 320px;
+ 		overflow: hidden;
+ 	}
+ 	.content {
+ 		width: 320px;
+ 	}
+ 	.content p {
+ 		padding-left: 8px;
+ 	}
+ 	
+	#logo {
+		background-size: 280px;
+		background-position: 0px 0px;
+		width: 300px;
+		margin-left: 10px;
+	}
+	#facebookconnect {
+		margin-top: 0px;
+		margin-right: 0px;
+		float: none;
+		margin: 0px;
+		padding: 0px;
+		display: block;
+	}
+	.textofone {
+		float: none;
+		width: 300px;
+	}
+	.textofone h1 {
+		padding-left: 20px;
+		padding-top: 28px;
+		font-size: 51px;
+	}
+	.textofone span {
+		text-transform: none !important;
+		font-size: 27px;
+	}
+
+	.conteudo-home {
+		float: none;
+		width: 300px;
+		margin-left: 11px;
+	}
+	.conteudo-home img {
+		width: 50px;
+	}
+	.conteudo-home p {
+		padding-top: 100px;
+	}
+	.texto-carrossel {
+		width: 320px;
+		line-height: 20px;
+		font-size: 20px;
+		display: block;
+
+	}
+	ul#carrossel {
+		width: 320px;
+		display: block;
+		float: none;
+	}
+	ul#carrossel li {
+		width: 100px;
+		margin-right: 0px;
+		display: inline-block;
+		height: 200px;
+	}
+	.apoieright {
+		display: none;
+	}
+	h1 {
+		font-size: 36px;
+		padding-left: 8px;
+		margin: 0px;
+	}
+	#text1 img {
+		padding-left: 5px;
+		width: 280px;
+	}
+	#text1 {
+		width: 320px;
+	}
+	#boxflutuante {
+		width: 310px;
+	}
+	#btInformar {
+		margin-left: 233px;
+	}
+	#carrossel-interno #avatar {
+		width: 100px;
+		height: 100px;
+		float:left;
+		margin: 10px;
+
+		
+	}
+
+	#facebookBox {
+		width: 320px;
+	}
+	#facebookBox img {
+		width: 310px;
+	}
+	#nome {
+		width: 300px;
+	}
+	#email {
+		width: 150px;
+	}
+	h2 {
+		margin-left: 10px;
+		margin-top: -45px;
+	}
+	.forma {
+		width: 320px;
+		float: none;
+	}
+	.img-post img { 
+		width: 300px;
+	}
+	.imgbko img {
+		width: 280px;
+	}
+ }
